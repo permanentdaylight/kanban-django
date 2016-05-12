@@ -1,0 +1,3 @@
+Django==1.9.6
+djangorestframework==3.3.3
+psycopg2==2.6.1
