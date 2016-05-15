@@ -2,20 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>JELLO</title>
   </head>
-  <body style="background-color: lightblue;">
+  <body>
 
-  <h1 style="text-decoration: underline;">Your Tasks</h1>
+  <h1>Your Tasks</h1>
 
-  </form>
   <ul id="tasks"></ul>
   <!-- <div id="task"></div> -->
-  <button id="press">Delete Task</button>
+  <!-- <button id="press">Delete Task</button> -->
 
   <form id="addTask" action="" method="post">
     </br>
-    <legend>Add Task</legend>
+    <legend style="text-decoration: underline">Add New Task</legend>
     </br>
     <label for="">Task</label>
     <input type="text" name="task" value="">
@@ -34,7 +34,7 @@
   </form>
 
 
-
+  <!-- <script type="text/javascript"> window.CSRF_TOKEN = "{{ csrf_token }}"; </script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="/static/tasks/tasks.js"></script>
 

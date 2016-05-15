@@ -1,0 +1,21 @@
+body {
+    background-image: url("http://wallpapercave.com/wp/CyT83yY.jpg")
+    /*background-color: lightblue;*/
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+li {
+  color: white;
+  font-size: 200%;
+}
+
+#addTask {
+  color:white;
+  font-size: 150%
+}
